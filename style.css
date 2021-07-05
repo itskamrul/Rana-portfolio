@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.flaxible {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.half-width {
+    width: 50%;
+
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+#top-banner {
+    background-image: url(./images/top-bennar-2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#child-time {
+    padding-left: 50px;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 8%;
+}
+.album h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 55px;
+    text-align: center;
+    border-bottom: 5px solid orange;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    
+}
+
+.box {
+    width: 15%;
+    float: left;
+    padding: 10px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+    display: block;
+
+}
+
+.box img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.box img:hover{
+    transform: scale(1.3,1.3);
+    transition: .3s transform;
